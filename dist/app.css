@@ -9,7 +9,7 @@
 }
 
 header {
-  height: 17.5vh;
+  height: 15vh;
   background-color: #ffffff;
   display: flex;
   justify-content: space-around;
@@ -44,12 +44,60 @@ header ul li:hover {
 
 main {
   height: 60vh;
+  display: flex;
+  justify-content: center;
   background-color: #2a2a72;
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
 
+main div {
+  align-self: center;
+  text-align: center;
+  color: #ecebeb;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+main div span {
+  font-size: 20px;
+  color: #cfd4e4;
+  font-weight: normal;
+}
+
 footer {
-  height: 22.5vh;
+  height: 25vh;
   background-color: #051120;
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer {
+  align-self: center;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+footer .footer i {
+  padding: 10px;
+  cursor: pointer;
+}
+
+footer .footer ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+footer .footer ul li {
+  font-size: 15px;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+}
+
+footer .footer ul li:hover {
+  color: antiquewhite;
 }
 
