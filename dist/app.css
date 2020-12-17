@@ -1,0 +1,55 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: lato;
+}
+
+header {
+  height: 17.5vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+
+header h1 {
+  color: #222222;
+  align-self: center;
+}
+
+header ul {
+  height: 70%;
+  align-self: center;
+  display: flex;
+}
+
+header ul li {
+  align-self: center;
+  margin: 0 20px;
+  color: #222222;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+header ul li:hover {
+  color: black;
+  background-color: lightblue;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+main {
+  height: 60vh;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+footer {
+  height: 22.5vh;
+  background-color: #051120;
+}
+

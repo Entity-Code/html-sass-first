@@ -1,0 +1,18 @@
+@mixin header {
+    height: 125px;
+    background-color: $white;
+    //debug
+    border: 1px solid black;
+}
+
+@mixin main {
+    color: yellow;
+    background-color: black;
+    text-decoration: underline;
+}
+
+@mixin footer {
+    color: yellow;
+    background-color: black;
+    text-decoration: underline;
+}
